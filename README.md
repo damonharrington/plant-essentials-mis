@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Plant Essentials — Investor MIS Portal
 
 A production-ready Management Information System dashboard for Plant Essentials,
@@ -147,3 +148,7 @@ and displayed on the dashboard when 2+ days of invoices are present.
 ---
 
 *Plant Essentials Pvt Ltd — Confidential*
+=======
+# plant-essentials-mis
+Production ready Investor MIS Portal for a D2C startup - React 18, Vite, Recharts, Docker. Features P&amp;L, Sales Ops, SKU forecasting &amp; Excel ingestion.
+>>>>>>> 4edaa9a862f95b52008e694f640b73c9b80b906c
