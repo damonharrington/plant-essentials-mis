@@ -1,0 +1,24 @@
+services:
+  mis-portal:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: runner          # use the final nginx stage
+    image: plant-essentials-mis:latest
+    container_name: plant-essentials-mis
+    restart: unless-stopped
+    ports:
+      - "3000:80"             # host:container — change 3000 to any free port
+    environment:
+      - NODE_ENV=production
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:80/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+
+# networks:
+#   default:
+#     name: mis-network
