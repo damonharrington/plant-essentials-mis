@@ -1,4 +1,6 @@
 # 🌿 Plant Essentials — Investor MIS Portal
+## 🚀 Live Demo
+👉 [Click here to view the live app](https://plant-essentials-mis.vercel.app)
 
 A production-ready Management Information System built for a D2C food & beverage startup. Designed to give founders and investors a real-time view of revenue, margins, and operational health — all from the browser, no backend required.
 
